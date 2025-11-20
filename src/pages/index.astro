@@ -1,41 +1,38 @@
 ---
-import GridCardAstroDirecus from "../components/GridCardAstroDirecus.astro";
 ---
 
-<head>
-  <title>AstroBuild · GridCardAstroDirecus</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-</head>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <title>AstroBuild · Ambiente de Testes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
 
-<main
-  style="
-    min-height: 100vh;
-    margin: 0;
-    padding: 2rem 1rem 3rem;
-    background: radial-gradient(circle at top, #f5f7ff 0, #ffffff 45%, #ffffff 100%);
-  "
->
-  <h1
+  <body
     style="
-      text-align: center;
+      margin: 0;
+      min-height: 100vh;
       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-      font-size: 2rem;
-      margin-bottom: 1rem;
+      background: radial-gradient(circle at top, #f5f7ff 0, #ffffff 45%, #ffffff 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
     "
   >
-    AstroBuild · Ambiente de Testes
-  </h1>
-  <p
-    style="
-      text-align: center;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-      color: #666;
-      margin-bottom: 2rem;
-    "
-  >
-    MVP do GridCardAstroDirecus para módulos de anúncio integrados ao CMS Ghost.
-  </p>
-
-  <GridCardAstroDirecus />
-</main>
+    <main
+      style="
+        text-align: center;
+        padding: 2rem;
+      "
+    >
+      <h1 style="font-size: 2rem; margin-bottom: 1rem;">
+        AstroBuild · Limpo e Pronto
+      </h1>
+      <p style="color: #475569; max-width: 480px; margin: 0 auto;">
+        Ambiente reiniciado. Agora vamos adicionar os módulos de anúncio
+        (Grid + Cards) em etapas, com tudo organizado em <code>components</code>
+        e páginas de visualização separadas.
+      </p>
+    </main>
+  </body>
+</html>
